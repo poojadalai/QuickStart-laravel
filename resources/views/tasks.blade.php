@@ -32,9 +32,6 @@
         </form>
     </div>
 
-    <!-- TODO: Current Tasks -->
-     <!-- Create Task Form... -->
-
     <!-- Current Tasks -->
     @if (count($tasks) > 0)
         <div class="panel panel-default" style="width: 600px; margin: auto;">
@@ -45,7 +42,7 @@
             <div class="panel-body">
                 <table class="table table-striped task-table">
 
-                    <!-- Table Headings -->
+                       <!-- Table Headings -->
                     <thead>
                         <th>Task</th>
                         <th>&nbsp;</th>
